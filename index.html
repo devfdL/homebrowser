@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		mfadhil
+	</title>
+	<meta charset="UTF-8">
+    <link rel = "icon" href="assets/icon1.png" type = "image/x-icon"> 
+    <link rel="stylesheet" href="assets/index.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+</head>
+<body onload="startTime()" id="body">
+
+    <div class="box">
+        <h1 id="time"><h1>
+        <h1 id="greet"><h1>
+    </div>
+
+    <div class="box1">
+        <p id="msg"> </p>
+    </div>
+
+    <!--<audio id="myAudio">
+        
+        <source src="assets/song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>-->
+
+    <div class="gsearch">
+        <input type="text" id="myText1" value="" placeholder="Google Search">
+        <button onclick="gsearch()"><i class="fa fa-search"></i></button>
+        <!--<p id="link"></p>-->
+    </div>
+
+    <div class="ytsearch">
+        <input type="text" id="myText" value="" placeholder="Youtube Search">
+        <button onclick="ytvid()"><i class="fa fa-search"></i></button>
+        <!--<p id="link"></p>-->
+    </div>
+
+    <!--<iframe width="300" height="300" id="ytube"
+        src="https://www.youtube.com/embed/MEg-oqI9qmw?autoplay=1&controls=1&video=0" autoplay>
+    </iframe>-->
+
+    <div class="cambtn">
+        <button id="cambtnbx" onClick="camBox()"><i class="fa fa-camera"></i></button>
+    </div>
+    
+
+    <div class="cam" id="camBox">
+        <div class="blackcam">
+            <div id="my_camera"></div>
+        </div>
+        <button onClick="take_snapshot()" id="snpbtn"><i class="fa fa-camera"></i></button>
+    </div>
+    
+    <div class="camreslt">
+        <div id="results" ></div>
+    </div>
+    
+    
+    <canvas id="nodes"></canvas>
+    <script type="text/javascript" src="assets/webcam.min.js"></script>
+    <script type="text/javascript" src="assets/nodes.js"></script>
+	<script type="text/javascript"></script>
+	<script src="assets/index.js"></script>  
+</body>
+</html>

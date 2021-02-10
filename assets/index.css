@@ -1,0 +1,177 @@
+body{
+    background-color: white;
+    color:white;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box{
+    margin-top: 250px;
+    position: relative;
+    z-index: 999999999999;
+}
+
+.box h1{
+    font-size: 50px;
+    margin-bottom: -40px;
+}
+
+.box p{
+    font-size: 18px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.box1{
+    margin-top: 50px;
+    position: relative;
+    z-index: 999999999999;
+}
+
+.gsearch{
+    z-index: 999999999999;
+    position: relative;
+    left: 30%;
+    width: 40%;
+    text-align: left;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.ytsearch{
+    z-index: 999999999999;
+    position: relative;
+    left: 30%;
+    width: 40%;
+    text-align: left;
+    color: white;
+}
+
+
+input[type=text] {
+    background-color: transparent;
+    position: relative;
+    width: 80%;
+    border: 1px solid gray;
+    color: white;
+    height: 45px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+input[type=text]:focus{
+    outline: none;
+}
+
+button{
+    color: white;
+    background-color: rgb(66, 66, 66);
+    border: transparent;
+    width: 15%;
+    height: 50px;
+    position: relative;
+    left: -5px;
+    font-size: 20px;
+}
+
+button:focus{
+    outline: none;
+}
+
+#ytube{
+    z-index: 9999999999999999;
+    position: absolute;
+    left: 30px;
+    bottom: 200px;
+    color: white;
+}
+
+#ytube:focus{
+    color: white;
+}
+
+.foot{
+    position: fixed;
+    bottom: 30px;
+    left: 35%;
+    z-index: 999999999999;
+}
+
+canvas{
+    z-index: 9;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+}
+
+.cam{
+    z-index: 99999999999999999999;
+    position: fixed;
+    left: 25%;
+    width: 50%;
+    height: 60%;
+    top: 20%;
+    background-color: rgba(85, 84, 84, 0.863);
+    border-radius: 15px;
+    display: none;
+}
+
+.blackcam{
+    background-color: black;
+    width: 100%;
+    position: relative;
+    top: 15%;
+}
+
+#my_camera{
+    width: 320px;
+    height: 240px;
+    border: 1px solid black;
+    position: relative;
+    left: 25%;
+}
+
+#snpbtn{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 12%;
+    left: 42%
+}
+
+.camreslt{
+    z-index: 9999999;
+    position: absolute;
+    top: 8%;
+    right: 30px;
+    width: 500px;
+    height: 350px;
+}
+
+#results{
+    transform: rotate(5deg);
+}
+
+
+.cambtn{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 999999999999;
+}
+
+#cambtnbx{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+#cambtnbx:hover{
+    background-color: transparent;
+    border: 2px solid rgb(66, 66, 66);
+}
