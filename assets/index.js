@@ -80,15 +80,33 @@ var nodesjs = new NodesJs({
     pointerCircleRadius: 150
 });
 
+var input = document.getElementById("myText1");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("btn1").click();
+  }
+});
+
+var input = document.getElementById("myText");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("btn2").click();
+  }
+});
+
 function gsearch() {
     var search = document.getElementById("myText1").value;
     var myWindow = window.open("https://www.google.com/search?q="+search);
+    document.getElementById('myText1').value = '';
     //document.getElementById("link").innerHTML = vid;
 }
 
 function ytvid() {
     var vid = document.getElementById("myText").value;
     var myWindow = window.open("https://www.youtube.com/results?search_query="+vid);
+    document.getElementById('myText').value = '';
 }
 
 Webcam.set({
